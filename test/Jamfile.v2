@@ -6,6 +6,8 @@
 
 import testing ;
 
+project : requirements <library>/boost/multi_array//boost_multi_array ;
+
 compile-fail fail_cbracket.cpp ;
 compile-fail fail_cdata.cpp ;
 compile-fail fail_citerator.cpp ;
